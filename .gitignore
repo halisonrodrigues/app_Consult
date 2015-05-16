@@ -25,3 +25,11 @@ proguard/
 
 # Log Files
 *.log
+
+# Arquivos de configuração do eclipse
+.classpath
+.project
+.settings/
+libs/
+proguard-project.txt
+project.properties
