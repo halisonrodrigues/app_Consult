@@ -6,29 +6,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.com.appconsult.MainActivity" >
+    tools:context="br.com.appconsult.empresa.EmpresaActivity" >
 
     <LinearLayout
-        android:id="@+id/LinearLayout_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:orientation="horizontal" >
+        android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button_Cliente"
+            android:id="@+id/button_cadastroDeEmpresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="clickTelaCliente"
-            android:text="Cliente" />
+            android:onClick="clickCadastroEmpresa"
+            android:text="Nova Empresa" />
 
         <Button
-            android:id="@+id/button_Empresa"
+            android:id="@+id/button_modificarEmpresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="clickTelaEmpresa"
-            android:text="Empresa" />
+            android:onClick="clickModificarEmpresa"
+            android:text="Modificar" />
+
+        <Button
+            android:id="@+id/button_exluirEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickExcluirEmpresa"
+            android:text="Excluir" />
     </LinearLayout>
 
 </RelativeLayout>

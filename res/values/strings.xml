@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">AppConsult</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">appConsult</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Seja Bem vindo.</string>
 
 </resources>
